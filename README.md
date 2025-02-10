@@ -18,3 +18,4 @@
 
 ## Znane problemy
 * Problem z obsługą polskich znaków
+* Obsłużyć interaktywne karty
