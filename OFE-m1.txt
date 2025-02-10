@@ -1,0 +1,75 @@
+Opanuj Frontend: AI Edition\\Wzorce i dobre praktyki\\\Przeprogramowani\2025
+pixel,quiz
+Co jest głównym celem stosowania wzorców projektowych w programowaniu frontendowym?\\!Ułatwienie zarządzania stanem, obsługi zdarzeń, asynchroniczności oraz złożoności projektów.
+Co mierzy metryka CLS i jaka jest jej docelowa wartość?\\!Cumulative Layout Shift (CLS) mierzy stabilność layoutu stron, a jej docelowa wartość to poniżej 0.1.
+Co odróżnia Pinia od Vuex?\\!Jest nowoczesną, lżejszą alternatywą dla Vuex, oferującą prostsze podejście do zarządzania stanem.
+
+Co oznacza idempotentność w kontekście metod HTTP?\\!Wielokrotne wysłanie tego samego żądania nie powoduje dodatkowych skutków ubocznych.
+Co oznacza minifikacja kodu i usunięcie nieużywanych elementów w kontekście optymalizacji aplikacji?\\!Oznacza zmniejszenie rozmiaru plików aplikacji poprzez usunięcie zbędnych danych, co poprawia czas ładowania.
+Co oznacza stan lokalny w kontekście aplikacji frontendowej?\\!Stan lokalny dotyczy danych bezpośrednio związanych z danym komponentem interfejsu użytkownika.
+Co oznacza, że metoda HTTP jest bezstanowa?\\!Nie przechowuje żadnych informacji o stanie klienta między żądaniami.
+Co sugeruje reguła KISS w kontekście programowania?\\!Utrzymywanie prostoty w kodzie, unikanie niepotrzebnej złożoności.
+Co to jest "Design for Failure" w kontekście tworzenia aplikacji frontendowych?\\!Podejście zakładające, że awarie są nieuniknione i skupiające się na minimalizowaniu ich wpływu na użytkownika.
+Co to jest action w kontekście Flux?\\!Obiekt opisujący zdarzenie, składający się z typu i opcjonalnych danych (payload).
+Co to jest architektura Flux?\\!Architektura używana do zarządzania stanem, oparta na zasadach Event Sourcing, CQRS, i wzorca Mediator.
+Co to jest Context API w React?\\!Mechanizm umożliwiający przekazywanie danych w dół drzewa komponentów bez konieczności manualnego przekazywania propsów.
+Co to jest LCP i jaka jest jego docelowa wartość?\\!Largest Contentful Paint (LCP) mierzy odczuwalną szybkość ładowania strony, a jego docelowa wartość to czas poniżej 2.5 sekundy.
+Co to jest optymalizacja optymistycznego aktualizowania stanu i jakie niesie zalety?\\!To technika aktualizowania interfejsu przed potwierdzeniem zapisu danych na serwerze, co może poprawić percepcję szybkości aplikacji.
+Co to jest reducer i jaka jest jego funkcja w Redux?\\!Czysta funkcja, która przyjmuje aktualny stan i akcję, a zwraca nowy stan.
+Co to jest Redux-Toolkit?\\!Biblioteka oferująca uproszczone i opinotwórcze podejście do pracy z Reduxem.
+Co to jest stan globalny?\\!Stan, który jest istotny dla wielu różnych części aplikacji, stąd musi być dostępny na wielu poziomach drzewa komponentów
+Co to jest stan w kontekście programowania?\\!Stan to zbiór zmiennych, wartości, informacji, które aplikacja "pamięta" w trakcie swojego działania.
+Co to jest Suspense w React i do czego służy?\\!Suspense pozwala na obsługę ładowania asynchronicznego komponentów, pokazując fallback UI w trakcie oczekiwania na dane.
+Co to jest wirtualny DOM i jakie niesie zalety?\\!Wirtualny DOM to technika optymalizacji wydajności, która minimalizuje interakcje z prawdziwym DOM, ograniczając operacje reflow i repaint.
+Co to są Core Web Vitals i jaki mają wpływ na ocenę jakości aplikacji?\\!To zbiór metryk rozwijanych przez Google, mierzących jakość użytkowania stron internetowych, wpływających na doświadczenie użytkownika. Wartość CWV wpływa na wyniki SEO.
+Co to są komponenty kontenerowe i prezentacyjne?\\!Wzorzec projektowy oddzielający logikę aplikacji od jej warstwy prezentacji na poziomie komponentów
+Co umożliwiają nowe rodzaje obiektów wbudowanych i metody pracy z kolekcjami w JavaScript?\\!Zwiększają możliwości języka, ułatwiają obsługę asynchroniczności i poprawiają jakość tworzonych projektów.
+Co umożliwiają WebSockety w kontekście komunikacji klient-serwer?\\!Dwustronną komunikację w czasie rzeczywistym.
+Czym charakteryzuje się kod zgodny z zasadą DRY?\\!Unikaniem powtórzeń i budowaniem możliwych do ponownego użycia funkcji, modułów i bibliotek.
+Czym jest API (Application Programming Interface)?\\!Interfejsem programistycznym aplikacji, służącym do komunikacji między różnymi serwisami.
+Czym jest Fetch API?\\!Standardowym interfejsem do wykonywania zapytań HTTP w przeglądarkach internetowych.
+Czym jest optymalizacja zapytań HTTP w kontekście aplikacji frontendowych?\\!To proces minimalizowania czasu oczekiwania na dane z serwera poprzez efektywniejsze zarządzanie żądaniami HTTP.
+Czym jest Prop Drilling i jak można go uniknąć?\\!Prop Drilling to przekazywanie propsów przez wiele poziomów komponentów; można go uniknąć używając Context API, serwisów (Angular) lub provide/inject (Vue).
+Czym jest zarządzanie stanem?\\!Zarządzanie stanem odnosi się do sposobu przechowywania stanu i obsługiwania jego zmian w kodzie.
+Czym różni się Data API od Application API?\\!Data API koncentruje się na udostępnianiu zasobów, Application API dostarcza dane specyficzne dla UI.
+Czym różni się podejście CUPID od SOLID w kontekście kodowania?\\!CUPID skupia się na pragmatycznych rekomendacjach i celach dla budowania oprogramowania, podczas gdy SOLID to zestaw konkretnych zasad projektowania oprogramowania.
+Czym różni się REST API od GraphQL?\\!REST API wykorzystuje różne endpointy dla różnych zasobów, GraphQL umożliwia wykonanie jednego zapytania do wielu zasobów.
+Czym różni się TanStack Query od tradycyjnych sposobów pobierania danych?\\!TanStack Query umożliwia deklaratywne opisywanie zapytań i koordynuje ich wykonanie, unikając duplikacji żądań.
+Dlaczego Fetch API traktuje odpowiedzi 4xx i 5xx jako sukces?\\!Ponieważ odrzuca Promise tylko w przypadku niepowodzenia sieci, a nie błędów HTTP.
+Dlaczego Redux zyskał na popularności?\\!Dobre powody: Rozwiązywał problemy z przewidywalnością przepływu danych i oferował narzędzia ułatwiające debugowanie i testowanie.\Prawdziwe powody: Pozwalał udostępnić stan w dowolne miejsce drzewa komponentów, narzucał wzorzec zarządzania stanem organizując projekty
+Dlaczego ważne jest stosowanie nazewnictwa opartego na domenie w kodzie?\\!Ułatwia to zrozumienie i zarządzanie kodem, odzwierciedlając terminologię problemu, który rozwiązuje.
+Do czego służy metoda HTTP POST?\\!Do dodawania nowego zasobu.
+Do czego służy technika Server-Side Rendering (SSR)?\\!SSR umożliwia delegowanie operacji, takich jak pobieranie danych, do części serwerowej aplikacji.
+Jak axios obsługuje błędy w porównaniu do Fetch API?\\!Automatycznie odrzuca żądania z kodami błędów 4xx i 5xx.
+Jak Axios wspiera anulowanie żądania?\\!Przez użycie CancelToken lub AbortController.
+Jak filozofia Unix wpływa na sposób pisania kodu frontendowego?\\!Promuje tworzenie małych, precyzyjnych modułów, które można łatwo ze sobą łączyć.
+Jak nazywa się technika pozwalająca na implementację Open-Closed Principle w React?\\!Technika render props.
+Jak wykorzystanie frameworków wpływa na skalowalność i utrzymanie aplikacji?\\!Użycie frameworków upraszcza skalowanie aplikacji i jej utrzymanie, czyniąc kod bardziej modularnym i łatwiejszym w testowaniu.
+Jak zarządzanie złożonością kodu wpływa na jego utrzymanie?\\!Złożoność utrudnia utrzymanie projektu, efektywność współpracy zespołowej i rozwiązywanie bugów, dlatego zarządzanie nią jest kluczowe.
+Jaki jest główny wpływ zewnętrznych zależności na komponenty frontendowe?\\!Wzorce decydują o łatwości migracji do nowych standardów, minimalizując ryzyko wprowadzania błędów.
+Jaki jest wpływ jakości kodu na tempo rozwoju projektu?\\!Jakość, przejrzystość i niska złożoność kodu bezpośrednio wpływają na przyspieszenie tempa rozwoju projektu.
+Jaki problem rozwiązuje globalne zarządzanie stanem?\\!Umożliwia zarządzanie danymi istotnymi dla wielu części aplikacji w sposób uporządkowany i przewidywalny.
+Jakie informacje przekazuje nagłówek HTTP Content-Type?\\!Typ przekazywanych danych.
+Jakie jest zastosowanie biblioteki Sharp w kontekście optymalizacji aplikacji?\\!Umożliwia optymalizację obrazków, co może zmniejszyć czas ładowania zasobów.
+Jakie narzędzie pozwala dbać o czytelny i dobrze sformatowany kod JavaScript?\\!ESLint.
+Jakie narzędzie umożliwia analizę Core Web Vitals w przeglądarce Chrome?\\!Narzędzia developerskie przeglądarki Chrome.
+Jakie narzędzie w Redux-Toolkit upraszcza obsługę operacji asynchronicznych?\\!createAsyncThunk oraz serwisy RTK Query
+Jakie praktyki należy stosować, aby zarządzanie stanem z Context API było efektywne?\\!Rozdrobnienie kontekstów, stosowanie odpowiednich typów danych dla Context API.
+Jakie są docelowe wartości dla metryk FID i INP?\\!FID: poniżej 100ms, INP: poniżej 200ms.
+Jakie są dwa główne podejścia do refaktoryzacji kodu i ich kluczowe różnice?\\!Podejście "Top-down" skupia się na całkowitym przepisaniu aplikacji, podczas gdy "Bottom-up" polega na stopniowym ulepszaniu najmniejszych elementów.
+Jakie są kluczowe koncepcje architektury Flux?\\!Action, store, i reducer.
+Jakie są najczęstsze wyzwania przy zarządzaniu stanem w aplikacjach frontendowych?\\!Walidacja danych, zachowanie stanu przy nawigacji, asynchroniczne ładowanie danych.
+Jakie są rekomendacje Dana Abramova dotyczące radzenia sobie z nadmiernym renderowaniem w Context API?\\!Rozdzielenie kontekstów, podzielenie komponentu i użycie memo(), lub użycie useMemo wewnątrz komponentu.
+Jakie są różnice w zarządzaniu stanem między React, Angular, a Vue?\\!Główna różnica polega na sposobie reagowania na zmiany stanu i aktualizacji DOM.
+Jakie są skutki ładowania strony mobilnej dłużej niż 3 sekundy wg badań Google z 2016 roku?\\!53% wizyt jest porzucanych.
+Jakie są trzy główne typy stanu na frontendzie?\\!Stan lokalny, stan współdzielony, stan globalny.
+Jakie są wady stosowania Redux?\\!Wymaga dużo kodu boilerplate, trudności z asynchronicznością, nadmierna centralizacja.
+Jakie są zalety stosowania Redux?\\!Przewidywalność stanu, ułatwienie debugowania, i ułatwienie testowania.
+Jakie są zalety stosowania techniki lazy loading dla modułów?\\!Moduły są pobierane na żądanie, co może poprawić wydajność aplikacji.
+Jaką metodą HTTP pobieramy dane bez ich modyfikacji?\\!GET
+Jaką rolę pełni store w architekturze Flux?\\!Przechowuje stan aplikacji, jest niezmienialny i działa jako jedno źródło prawdy.
+Kto stworzył Redux i kiedy?\\!Dan Abramov i Andrew Clark w 2015 roku.
+Podaj przykład zarządzania stanem z życia codziennego.\\!Światła w domu, gdzie przełącznik zmienia stan światła z włączonego na wyłączone i odwrotnie.
+W jaki sposób React zarządza stanem lokalnym?\\!Poprzez hook useState w komponentach funkcyjnych lub this.state w komponentach klasowych.
+W jaki sposób virtual scroll wpływa na wydajność aplikacji?\\!Pozwala na efektywniejsze wyświetlanie długich list elementów, ładowając tylko widoczne dane.
+W jakim przypadku użylibyśmy Biblioteki Socket.IO?\\!Dla aplikacji wymagających ciągłej, dwukierunkowej komunikacji, np. chaty.
