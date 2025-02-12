@@ -3,7 +3,6 @@ pixel,quiz
 Co jest głównym celem stosowania wzorców projektowych w programowaniu frontendowym?\\!Ułatwienie zarządzania stanem, obsługi zdarzeń, asynchroniczności oraz złożoności projektów.
 Co mierzy metryka CLS i jaka jest jej docelowa wartość?\\!Cumulative Layout Shift (CLS) mierzy stabilność layoutu stron, a jej docelowa wartość to poniżej 0.1.
 Co odróżnia Pinia od Vuex?\\!Jest nowoczesną, lżejszą alternatywą dla Vuex, oferującą prostsze podejście do zarządzania stanem.
-
 Co oznacza idempotentność w kontekście metod HTTP?\\!Wielokrotne wysłanie tego samego żądania nie powoduje dodatkowych skutków ubocznych.
 Co oznacza minifikacja kodu i usunięcie nieużywanych elementów w kontekście optymalizacji aplikacji?\\!Oznacza zmniejszenie rozmiaru plików aplikacji poprzez usunięcie zbędnych danych, co poprawia czas ładowania.
 Co oznacza stan lokalny w kontekście aplikacji frontendowej?\\!Stan lokalny dotyczy danych bezpośrednio związanych z danym komponentem interfejsu użytkownika.
@@ -16,7 +15,7 @@ Co to jest Context API w React?\\!Mechanizm umożliwiający przekazywanie danych
 Co to jest LCP i jaka jest jego docelowa wartość?\\!Largest Contentful Paint (LCP) mierzy odczuwalną szybkość ładowania strony, a jego docelowa wartość to czas poniżej 2.5 sekundy.
 Co to jest optymalizacja optymistycznego aktualizowania stanu i jakie niesie zalety?\\!To technika aktualizowania interfejsu przed potwierdzeniem zapisu danych na serwerze, co może poprawić percepcję szybkości aplikacji.
 Co to jest reducer i jaka jest jego funkcja w Redux?\\!Czysta funkcja, która przyjmuje aktualny stan i akcję, a zwraca nowy stan.
-Co to jest Redux-Toolkit?\\!Biblioteka oferująca uproszczone i opinotwórcze podejście do pracy z Reduxem.
+Co to jest Redux-Toolkit?\\!Biblioteka oferująca uproszczone i opiniotwórcze podejście do pracy z Reduxem.
 Co to jest stan globalny?\\!Stan, który jest istotny dla wielu różnych części aplikacji, stąd musi być dostępny na wielu poziomach drzewa komponentów
 Co to jest stan w kontekście programowania?\\!Stan to zbiór zmiennych, wartości, informacji, które aplikacja "pamięta" w trakcie swojego działania.
 Co to jest Suspense w React i do czego służy?\\!Suspense pozwala na obsługę ładowania asynchronicznego komponentów, pokazując fallback UI w trakcie oczekiwania na dane.
@@ -40,7 +39,7 @@ Dlaczego Redux zyskał na popularności?\\!Dobre powody: Rozwiązywał problemy 
 Dlaczego ważne jest stosowanie nazewnictwa opartego na domenie w kodzie?\\!Ułatwia to zrozumienie i zarządzanie kodem, odzwierciedlając terminologię problemu, który rozwiązuje.
 Do czego służy metoda HTTP POST?\\!Do dodawania nowego zasobu.
 Do czego służy technika Server-Side Rendering (SSR)?\\!SSR umożliwia delegowanie operacji, takich jak pobieranie danych, do części serwerowej aplikacji.
-Jak axios obsługuje błędy w porównaniu do Fetch API?\\!Automatycznie odrzuca żądania z kodami błędów 4xx i 5xx.
+Jak Axios obsługuje błędy w porównaniu do Fetch API?\\!Automatycznie odrzuca żądania z kodami błędów 4xx i 5xx.
 Jak Axios wspiera anulowanie żądania?\\!Przez użycie CancelToken lub AbortController.
 Jak filozofia Unix wpływa na sposób pisania kodu frontendowego?\\!Promuje tworzenie małych, precyzyjnych modułów, które można łatwo ze sobą łączyć.
 Jak nazywa się technika pozwalająca na implementację Open-Closed Principle w React?\\!Technika render props.
@@ -71,5 +70,5 @@ Jaką rolę pełni store w architekturze Flux?\\!Przechowuje stan aplikacji, jes
 Kto stworzył Redux i kiedy?\\!Dan Abramov i Andrew Clark w 2015 roku.
 Podaj przykład zarządzania stanem z życia codziennego.\\!Światła w domu, gdzie przełącznik zmienia stan światła z włączonego na wyłączone i odwrotnie.
 W jaki sposób React zarządza stanem lokalnym?\\!Poprzez hook useState w komponentach funkcyjnych lub this.state w komponentach klasowych.
-W jaki sposób virtual scroll wpływa na wydajność aplikacji?\\!Pozwala na efektywniejsze wyświetlanie długich list elementów, ładowając tylko widoczne dane.
+W jaki sposób virtual scroll wpływa na wydajność aplikacji?\\!Pozwala na efektywniejsze wyświetlanie długich list elementów, ładując tylko widoczne dane.
 W jakim przypadku użylibyśmy Biblioteki Socket.IO?\\!Dla aplikacji wymagających ciągłej, dwukierunkowej komunikacji, np. chaty.
