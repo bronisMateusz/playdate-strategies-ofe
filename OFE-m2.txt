@@ -1,0 +1,69 @@
+Opanuj Frontend: AI Edition\\Inżyniera jakości\\\Przeprogramowani\2025
+pixel,quiz
+Co jest celem techniki Pre Mortem w zarządzaniu projektami?\\!Proaktywne przewidywanie i minimalizowanie ryzyka niepowodzenia przed jego wystąpieniem.
+Co jest kluczową zmianą w podejściu do API, wprowadzoną przez Jeffa Bezosa w Amazonie?\\!Wszystkie zespoły muszą komunikować się za pomocą interfejsów API.
+Co muszą uwzględniać wszystkie interfejsy usług według "API Mandate"?\\!Muszą być zaprojektowane do możliwości opublikowania na zewnątrz.
+Co oznacza akronim LGTM używany w kontekście Code Review?\\!"Looks good to me", co oznacza akceptację zmian w kodzie.
+Co oznacza skrót a11y?\\!Jest to skrót od słowa "accessibility", gdzie 11 oznacza liczbę liter pominiętych między pierwszą a ostatnią literą słowa.
+Co oznacza skrót CI/CD w kontekście rozwoju oprogramowania?\\!Continuous Integration/Continuous Deployment, czyli ciągła integracja i ciągłe wdrażanie.
+Co oznacza skrót SUT w kontekście testów jednostkowych?\\!SUT oznacza System Under Test, czyli element bądź system, który jest przedmiotem testowania.
+Co pozwala osiągnąć przestrzeganie "Representation Principle" w projektowaniu aplikacji?\\!Redukcję złożoności przez analizę i optymalizację formatu danych.
+Co pozwala zrobić żywa, interaktywna dokumentacja API?\\!Umożliwia testowe wywoływanie endpointów i przekazywanie parametrów.
+Co sugeruje Unix Philosophy w kontekście danych i logiki programu?\\!Wiedza powinna być zawarta w danych, co pozwala na uproszczenie algorytmów.
+Co to jest Definition of Done (DoD) w kontekście projektów programistycznych?\\!Jest to zestaw kryteriów, które muszą być spełnione, aby zadanie zostało uznane za zakończone.
+Co to jest focus trap i kiedy jest stosowany?\\!Mechanizm zapobiegający przenoszeniu focusu poza modal lub okno dialogowe, ważny dla dostępności.
+Co to jest regresja w kontekście testowania oprogramowania?\\!Regresja to sytuacja, gdy wprowadzenie nowych funkcji lub poprawek powoduje błędy w częściach kodu, które wcześniej działały poprawnie.
+Co to jest wzorzec Page Object Model i jak jest używany w testach e2e?\\!Page Object Model to wzorzec projektowy, który ułatwia pisanie i utrzymanie testów e2e przez abstrakcję i enkapsulację interakcji z interfejsem użytkownika.
+Co to są technologie wspomagające (AT)?\\!To narzędzia pomagające osobom niepełnosprawnym w dostępie do treści cyfrowych i interakcji z nimi.
+Co to są testy end-to-end (e2e)?\\!Testy e2e symulują rzeczywiste interakcje użytkownika z aplikacją, od front-endu przez back-end, aż po bazy danych i zewnętrzne usługi, sprawdzając kompletny przepływ funkcjonalności.
+Co to są Web Content Accessibility Guidelines (WCAG) i do czego służą?\\!To zestaw wytycznych mających na celu uczynienie treści internetowych bardziej dostępnymi dla osób z różnymi rodzajami niepełnosprawności.
+Co umożliwia biblioteka Zod?\\!Weryfikację spójności danych w czasie wykonania programu.
+Co umożliwia technika "Five Whys"?\\!Identyfikację głębokich przyczyn problemów poprzez serię pytań "Dlaczego".
+Czym jest dostępność w kontekście cyfrowym?\\!To praktyka projektowania aplikacji tak, aby były użyteczne dla szerokiego grona osób, w tym osób z niepełnosprawnościami.
+Czym jest Vitest?\\!Vitest to narzędzie do testowania jednostkowego, które jest rekomendowane do testowania elementów frontendu, wspierające ES Modules, TypeScript i JSX.
+Czym są Post Mortems w kontekście projektów informatycznych?\\!Są to podsumowania incydentów, które zawierają analizę problemu, opis działań podjętych w celu jego rozwiązania oraz plan działań zapobiegawczych na przyszłość.
+Dlaczego atrybut "alt" jest ważny dla obrazów na stronie internetowej?\\!Zapewnia tekstową alternatywę dla treści niewizualnych, co jest kluczowe dla dostępności.
+Dlaczego dostępność jest ważnym elementem User Experience (UX)?\\!Ponieważ ma na celu zapewnienie, że aplikacje internetowe są użyteczne dla jak najszerszego grona użytkowników.
+Dlaczego dostępność nie dotyczy wyłącznie osób niepełnosprawnych?\\!Ponieważ korzyści płynące z dostępnego projektowania rozciągają się na szerszą populację, w tym osoby starsze, z niepełnosprawnością tymczasową oraz trudnych warunkach środowiskowych (słaby internet, duże nasłonecznienie)
+Dlaczego oddzielenie logiki od prezentacji ułatwia testowanie jednostkowe?\\!Ułatwia to testowanie, ponieważ można skupić się na testowaniu logiki aplikacji bez konieczności angażowania elementów interfejsu użytkownika.
+Dlaczego selektory CSS nie są zalecane do identyfikacji elementów w testach e2e?\\!Selektory CSS mogą być łatwo zmieniane i nie niosą znaczenia semantycznego, co czyni testy mniej stabilnymi.
+Dlaczego standaryzacja środowiska pracy jest ważna w programowaniu?\\!Ułatwia współpracę, oszczędza czas na wartościowe aktywności i zapewnia efektywność pracy zespołowej.
+Dlaczego testowanie jest ważne w rozwoju aplikacji frontendowych?\\!Testowanie zwiększa niezawodność aplikacji, minimalizuje liczbę bugów i poprawia jakość kodu, co jest kluczowe w utrzymaniu wysokiej jakości dużych projektów.
+Dlaczego testy e2e mogą być niestabilne (flaky)?\\!Niestabilność testów e2e może wynikać z zmienności środowiska testowego, zależności od zewnętrznych usług, czy zmian w UI.
+Dlaczego ważne jest, aby proces Code Review opierał się na obiektywnych standardach branży?\\!Aby komentarze były konstruktywne i przyczyniały się do podnoszenia jakości projektu.
+Jak można minimalizować problemy z testami e2e?\\!Problemy można minimalizować przez selekcję testów, projektowanie dla ponownego użycia i izolację zależności.
+Jak nazywamy proces zapewnienia, że kod spełnia określone wymagania przed włączeniem go do głównej linii rozwoju projektu?\\!Continuous Integration
+Jak Playwright wspiera mockowanie API?\\!Playwright oferuje Mock APIs dla przechwytywania i symulowania odpowiedzi z zewnętrznych API bez faktycznych zapytań do serwera backendowego.
+Jak Playwright wspiera testowanie responsywności aplikacji?\\!Playwright umożliwia symulację różnych urządzeń mobilnych, ich rozdzielczości ekranu i orientacji.
+Jak wpływ na jakość i wydajność aplikacji ma wybór formatu danych przekazywanych z API?\\!Prawidłowy wybór formatu może znacznie zmniejszyć złożoność kodu i poprawić wydajność aplikacji.
+Jaka jest rola OpenAPI w tworzeniu API?\\!Standaryzacja i usystematyzowanie interakcji między producentami i konsumentami API. 
+Jaki jest cel stosowania atrybutów ARIA w projektowaniu stron internetowych?\\!Umożliwienie precyzyjnego definiowania ról, stanów i właściwości elementów interfejsu dla technologii wspomagających.
+Jaki jest główny cel tworzenia Post Mortem w projektach IT?\\!Nauka z awarii i zapobieganie podobnym incydentom w przyszłości przez wprowadzenie konkretnych zmian.
+Jakie jest główne wyzwanie przy zarządzaniu testami e2e?\\!Głównym wyzwaniem jest ich niestabilność, złożoność i długi czas wykonania.
+Jakie jest zalecane podejście do wybierania selektorów w testach e2e?\\!Zalecane jest używanie selektorów a11y dla promowania dostępności oraz data-testid dla specyficzności i kontroli.
+Jakie narzędzia pomagają osobom z niepełnosprawnością wzrokową w dostępie do treści cyfrowych?\\!Czytniki ekranu i oprogramowanie do powiększania ekranu.
+Jakie narzędzie pozwala na tworzenie specyfikacji OpenAPI na podstawie dekoratorów TypeScript?\\!tsoa
+Jakie przeglądarki wspiera Playwright?\\!Chrome, Firefox, Safari oraz Edge.
+Jakie są 4 główne zasady dostępności według WCAG?\\!Perceivable (Dostrzegalne), Operable (Funkcjonalne), Understandable (Zrozumiałe), Robust (Solidne/Kompatybilne) 
+Jakie są dwa główne założenia Testing Library?\\!Testing Library skupia się na pracy z obiektami DOM i symulowaniu rzeczywistych akcji użytkownika, unikając szczegółów implementacji komponentów.
+Jakie są dwa podejścia do wniosków po zakończonych projektach lub incydentach?\\!"Zrobimy to lepiej w przyszłości" i "wdrożymy zmiany systemowe".
+Jakie są dwa sposoby obsługi zewnętrznych zależności w Vitest?\\!Można użyć spy, aby śledzić użycie zależności, lub mock, aby zastąpić zależność alternatywną wersją.
+Jakie są dwie metody powiązania etykiety z kontrolką formularza?\\!Użycie atrybutu for z ID kontrolki oraz zagnieżdżenie kontrolki wewnątrz etykiety.
+Jakie są główne korzyści płynące z praktyki Code Review?\\!Podnoszenie jakości kodu, transfer wiedzy między programistami i redukcja błędów przed wdrożeniem.
+Jakie są główne typy niepełnosprawności wpływające na dostępność stron internetowych?\\!Niepełnosprawności wzrokowe, słuchowe, ruchowe i poznawcze.
+Jakie są kluczowe elementy skutecznej zmiany w metodologii pracy zespołu programistycznego?\\!Wizja, przygotowanie, pobudki, zasoby i plan.
+Jakie są trzy etapy testu jednostkowego w podejściu "3xA"?\\!Arrange (przygotowanie warunków początkowych), Act (wykonanie testowanej logiki), Assert (weryfikacja stanu końcowego).
+Jakie są trzy poziomy zgodności w WCAG?\\!A (najniższy), AA, AAA (najwyższy).
+Jakie są zalety używania selektorów a11y w testach e2e?\\!Selektory a11y promują dostępność i odzwierciedlają realne interakcje użytkowników, co prowadzi do bardziej niezawodnych testów.
+Jakie wyzwanie stanowi testowanie kodu frontendowego?\\!Wyzwaniem jest zrównoważenie pomiędzy różnymi rodzajami testów (jednostkowe, integracyjne, e2e) oraz utrzymanie ich stabilności i niezawodności w miarę rozwoju aplikacji.
+Jakie zagadnienie rozwiązuje biblioteka tRPC w komunikacji między frontendem a backendem?\\!Umożliwia traktowanie zdalnych procedur serwera jak lokalnych funkcji na froncie.
+Jakie założenie jest podstawą modelu pracy tRPC?\\!Definiowanie procedur dostępnych zarówno na serwerze, jak i kliencie, zmniejszające złożoność komunikacji.
+Jaką formę komunikacji międzyprocesowej zakazuje "API Mandate"?\\!Jakąkolwiek inną niż wywołania API.
+Jaką korzyść przynosi korzystanie z standardu OpenAPI dla frontend developerów?\\!Zapewnia jedno źródło prawdy dotyczące backendu, ułatwiając generowanie klientów http.
+Jaką technikę można wykorzystać do identyfikacji głębszych przyczyn problemów w projektach?\\!Technikę "Five Whys".
+Kiedy warto mockować API w testach e2e?\\!Mockowanie API ma sens, gdy chcemy przetestować UI niezależnie od backendu, szczególnie przy testowaniu różnych stanów interfejsu.
+Kiedy została opracowana specyfikacja OpenAPI i pod jaką nazwą była znana pierwotnie?\\!W 2011 roku, znana jako Swagger.
+Na czym polega korzyść z przenoszenia złożoności z kodu do danych?\\!Na zmniejszeniu złożoności algorytmów przez bogatsze struktury danych.
+Na czym polega standaryzacja środowiska w programowaniu?\\!Na ujednoliceniu narzędzi i procesów w celu efektywnej współpracy i maksymalizacji produktywności.
+Na jakim poziomie w piramidzie testów znajdują się testy e2e?\\!Testy e2e znajdują się na szczycie piramidy testów, są najmniej liczne, ale też najdroższe w realizacji i utrzymaniu.
+W jaki sposób można sprawdzić dostępność strony internetowej?\\!Za pomocą testów automatycznych narzędzi, jak Lighthouse lub WAVE, oraz manualnych testów z użyciem czytników ekranowych i klawiatury.
